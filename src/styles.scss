@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'primeng/resources/themes/lara-light-blue/theme.css';
+@import 'primeng/resources/primeng.css';
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.scss';
+
+
+body {
+    font-family: var(--font-family);
+}
+
+.layout-config-button {
+    display: block;
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    background: var(--primary-color);
+    color: var(--primary-color-text);
+    text-align: center;
+    top: 50%;
+    right: 0;
+    margin-top: -1.5rem;
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: background-color var(--transition-duration);
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999;
+    box-shadow: -0.25rem 0 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    background: var(--surface-card);
+    border: 1px solid var(--surface-border);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--card-shadow);
+    border-radius: 12px;
+}
+.card:last-child {
+    margin-bottom: 0;
+}
+.card-header > h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    min-width: 100%;
+}
+.card-body{
+    margin-top: 1rem;
+}
+.login-form{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.login-container{
+    width: 70rem;
+}
+.swal2-container{
+    z-index: 12300 !important;
+}
+element.style {
+    z-index: 9999 !important;
+}
